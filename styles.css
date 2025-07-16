@@ -109,11 +109,18 @@ font-weight: 700;
   box-shadow: 0 8px 16px rgba(0,0,0,0.16);
   margin-bottom: 28px;
 }
-
 .about-me__picture {
   width: 100%;
 
 /* Improving David's picture */
 transform: scale(1.5);
 padding-top: 8px;
+}
+.about-me__info--title {
+  font-size: 20 px;
+  margin-bottom: 28px;
+}
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
 }
