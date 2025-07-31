@@ -184,7 +184,7 @@ nav {
 }
 
 .about-me__picture {
-  width: 100%;
+  width: 65%;
 
   /* Improving David's picture */
   transform: scale(1.5);
@@ -206,7 +206,6 @@ nav {
   padding: 0 16px;
   animation: fade-up 650ms 400ms backwards;
 }
-
 .about-me__links {
   animation: fade-up 650ms 800ms backwards;
 }
@@ -223,6 +222,7 @@ nav {
 }
 
 .about-me__img--container {
+  padding: 36px;
   flex: 1;
   display: flex;
   align-items: center;
