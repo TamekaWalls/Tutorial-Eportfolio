@@ -259,9 +259,6 @@ nav {
   }
 }
 
-
-
-
 /* TECH-STACK */
 
 .language__img {
@@ -277,7 +274,7 @@ nav {
 }
 
 .language {
-  width: 25%;
+  width: 16%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -292,9 +289,9 @@ nav {
 
 .language__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .language__name {
@@ -356,7 +353,7 @@ nav {
   filter: blur(5px);
 }
 
-,project:hover .project__description {
+.project:hover .project__description {
   opacity: 1;
   transform: translateY(-50%);
 }
@@ -369,7 +366,7 @@ nav {
   position: absolute;
   top: 50%;
   left: 90px
-  transform: translateY(100%);
+  transform: translateY(-50%);
   max-width: 550px;
   z-index: 3;
   opacity: 0;
@@ -387,10 +384,11 @@ nav {
 .project__description--link {
   font-size: 20px;
   margin-right: 16px;
+  text-decoration: none;
 }
 
 .project__description--title,
-.project__descrition--sub-title,
+.project__description--sub-title,
 .proct__description--para,
 .project__description--link {
   text-align: left;
