@@ -362,6 +362,7 @@ nav {
 }
 
 .project__description {
+  color: white;
   position: absolute;
   top: 50%;
   left: 90px;
@@ -388,10 +389,10 @@ nav {
 
 .project__description--title,
 .project__description--sub-title,
-.proct__description--para,
+.project__description--para,
 .project__description--link {
   text-align: left;
-  color: #fff;
+  color: white;
 }
 
 
